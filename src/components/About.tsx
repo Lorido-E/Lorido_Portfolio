@@ -60,12 +60,9 @@ const About = () => {
             innovative and efficient solutions.
           </p>
           <a
-            href="#Resume"
+            href="/Lorido.pdf"
+            download
             className="bg-gray-600 text-white font-bold py-2 px-6 rounded hover:bg-gray-700 transition-colors duration-300"
-            onClick={(e) => {
-              e.preventDefault(); // Prevent default behavior
-              scrollToSection(); // Trigger the scroll with an offset
-            }}
           >
             View My Resume
           </a>

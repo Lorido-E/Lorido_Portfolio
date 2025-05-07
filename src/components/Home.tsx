@@ -4,13 +4,13 @@ const Home = () => {
   return (
     <div
       id="home"
-      className="md:flex justify-between md:py-[10rem] md:px-[20rem] pt-5 mb-10 md:mb-40 bg-gray-100"
+      className="md:flex h-screen justify-between md:py-[10rem] md:px-[20rem] pt-5 mb-10 md:mb-40 bg-gray-100"
     >
       <div className="text-center md:w-60 md:text-left">
-        <h1 className="md:text-2xl md:font-normal font-bold md:mt-[3.5rem]">
+        <h1 className="md:text-2xl md:font-normal font-bold md:mt-[3.5rem] mt-[2rem] text-[1.6rem]">
           Hello, I'm Erds Lorido
         </h1>
-        <span className="md:text-7xl font-extrabold text-3xl">
+        <span className="md:text-7xl font-extrabold text-4xl">
           <TypewriterEffect />
         </span>
       </div>
