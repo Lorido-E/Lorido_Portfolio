@@ -40,6 +40,10 @@ const About = () => {
     >
       <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-7xl">
         <div
+          onClick={(e) => {
+            e.preventDefault(); // Prevent default behavior
+            scrollToSection(); // Trigger the scroll with an offset
+          }}
           className={`md:w-1/2 text-center md:text-left ${
             isVisible
               ? "opacity-100 transform translate-y-0"
