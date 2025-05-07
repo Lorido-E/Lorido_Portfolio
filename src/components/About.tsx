@@ -40,10 +40,6 @@ const About = () => {
     >
       <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-7xl">
         <div
-          onClick={(e) => {
-            e.preventDefault(); // Prevent default behavior
-            scrollToSection(); // Trigger the scroll with an offset
-          }}
           className={`md:w-1/2 text-center md:text-left ${
             isVisible
               ? "opacity-100 transform translate-y-0"
@@ -65,8 +61,19 @@ const About = () => {
           </p>
           <a
             href="/Lorido.pdf"
-            download
             className="bg-gray-600 text-white font-bold py-2 px-6 rounded hover:bg-gray-700 transition-colors duration-300"
+            onClick={(e) => {
+              e.preventDefault();
+              scrollToSection();
+
+              // Trigger download manually
+              const link = document.createElement("a");
+              link.href = "/Lorido.pdf";
+              link.download = "E-Lorido.pdf";
+              document.body.appendChild(link);
+              link.click();
+              document.body.removeChild(link);
+            }}
           >
             View My Resume
           </a>
