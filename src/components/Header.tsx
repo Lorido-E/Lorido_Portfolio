@@ -26,10 +26,10 @@ const Header = () => {
         scrolled
           ? "opacity-100 transform rotate-x-0"
           : "opacity-0 rotate-x-[-100deg]"
-      } fixed top-0 w-full z-50 flex justify-between items-center bg-gray-200 p-5 transition-all duration-800 ease-in-out shadow-lg`}
+      } fixed top-0 w-full z-50 flex justify-between items-center bg-gray-200 p-5 transition-all duration-800 ease-in-out shadow-lg px-15`}
     >
       <div>
-        <img src="images/logo.png" alt="Logo" width={50} height={50} />
+        <img src="images/Erdsung.png" alt="Logo" width={100} height={50} />
       </div>
 
       <nav className="text-gray-700 md:flex gap-10 hidden">

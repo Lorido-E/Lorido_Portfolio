@@ -1,8 +1,10 @@
 const Footer = () => {
   return (
     <div>
-      <div className="p-[2rem] h-15 bg-gray-100 flex items-center text-center justify-center">
-        <p>This is Footer</p>
+      <div className="p-[2rem] h-15 bg-gray-800 flex items-center text-center justify-center">
+        <p className="text-white">
+          &copy; 2025 Erds Lorido. All rights reserved.
+        </p>
       </div>
     </div>
   );

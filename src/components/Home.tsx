@@ -15,13 +15,14 @@ const Home = () => {
         </span>
       </div>
 
-      <div className="md:mt-0 mt-10 flex flex-col items-center">
-        <img
-          src="images/qweqwe.jpg"
-          alt="logo"
-          className="rounded-full w-89 h-89 object-cover"
-        />
-
+      <div className="md:mt-0 mt-10 flex flex-col items-center ">
+        <div className="shadow-lg rounded-full shadow-amber-600">
+          <img
+            src="images/qweqwe.jpg"
+            alt="logo"
+            className="rounded-full w-89 h-89 object-cover "
+          />
+        </div>
         <div className="flex space-x-4 mt-10">
           <a
             href="https://www.facebook.com/erdsulorido/"
