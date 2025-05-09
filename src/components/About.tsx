@@ -68,7 +68,7 @@ const About = () => {
 
               // Trigger download manually
               const link = document.createElement("a");
-              link.href = "/Lorido.pdf";
+              link.href = "/LoridoE.pdf";
               link.download = "E-Lorido.pdf";
               document.body.appendChild(link);
               link.click();

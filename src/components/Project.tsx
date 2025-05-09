@@ -1,9 +1,9 @@
 // src/components/Projects.tsx
 const Projects = () => {
   return (
-    <section id="projects" className="bg-white py-16">
-      <div className="container mx-auto px-6 text-center">
-        <h2 className="text-4xl font-extrabold text-gray-800 mb-10 ">
+    <section id="projects" className="bg-white py-16 min-h-screen scroll-mt-20">
+      <div className="container mx-auto px-6 text-center ">
+        <h2 className="text-4xl font-extrabold text-gray-800 mb-10 mt-5">
           My Projects
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">

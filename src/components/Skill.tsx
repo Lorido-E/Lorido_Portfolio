@@ -2,7 +2,7 @@ const Skill = () => {
   return (
     <div id="skill" className="bg-gray-100 min-h-screen py-16 px-6">
       <div className="text-center mb-12">
-        <h2 className="text-5xl md:text-6xl font-extrabold text-gray-800 mb-4">
+        <h2 className="text-5xl md:text-6xl font-extrabold text-gray-800 mb-4 mt-10">
           Skills
         </h2>
         <p className="text-gray-600 text-lg md:text-xl">
