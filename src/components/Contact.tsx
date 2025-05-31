@@ -15,19 +15,25 @@ const Contact = () => {
           className="space-y-4"
         >
           <input
+            name="name"
             type="text"
             placeholder="Your Name"
             className="w-full p-3 border rounded-lg"
+            required
           />
           <input
+            name="email"
             type="email"
             placeholder="Your Email"
             className="w-full p-3 border rounded-lg"
+            required
           />
           <textarea
+            name="message"
             rows={5}
             placeholder="Your Message"
             className="w-full p-3 border rounded-lg"
+            required
           />
           <button
             type="submit"
