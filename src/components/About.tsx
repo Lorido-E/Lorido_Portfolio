@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 const About = () => {
   const [isVisible, setIsVisible] = useState(false);
 
-  // Detect when the section comes into view to trigger fade-in animation
   useEffect(() => {
     const handleScroll = () => {
       const section = document.getElementById("aboutSection");
@@ -22,13 +21,12 @@ const About = () => {
     };
   }, []);
 
-  // Handle scroll behavior with an offset
   const scrollToSection = () => {
     const section = document.getElementById("aboutSection");
     if (section) {
       window.scrollTo({
-        top: section.offsetTop - 100, // Adjust this offset as needed
-        behavior: "smooth", // Smooth scroll
+        top: section.offsetTop - 100,
+        behavior: "smooth",
       });
     }
   };

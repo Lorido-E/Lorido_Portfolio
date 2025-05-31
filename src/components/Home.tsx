@@ -1,5 +1,5 @@
 import TypewriterEffect from "./TypewriterEffect";
-import { FaFacebook, FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 const Home = () => {
   return (
     <div
@@ -31,9 +31,7 @@ const Home = () => {
           >
             <FaFacebook className="text-2xl text-blue-600 hover:text-blue-800 transition" />
           </a>
-          <a href="#" target="_blank" rel="noopener noreferrer">
-            <FaTwitter className="text-2xl text-blue-400 hover:text-blue-600 transition" />
-          </a>
+
           <a
             href="https://github.com/Lorido-E"
             target="_blank"
@@ -41,7 +39,11 @@ const Home = () => {
           >
             <FaGithub className="text-2xl text-gray-800 hover:text-black transition" />
           </a>
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.linkedin.com/in/lorido-era%C3%B1o-32613428b/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaLinkedin className="text-2xl text-blue-700 hover:text-blue-900 transition" />
           </a>
         </div>
